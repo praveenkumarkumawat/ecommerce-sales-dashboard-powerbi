@@ -1,0 +1,27 @@
+# Power BI autosave and backup files
+*.pbix.autosave
+*.pbix~*
+*.pbit.autosave
+
+# Power BI template files (optional - keep if not needed)
+*.pbit
+
+# Excel and temp files
+~$*
+
+# System cache files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Visual Studio Code / IDE folders
+.vscode/
+*.code-workspace
+
+# Python or scripting cache (if any used)
+__pycache__/
+*.pyc
+.env
+
+# Node modules (if any web automation or JS tools used)
+node_modules/
