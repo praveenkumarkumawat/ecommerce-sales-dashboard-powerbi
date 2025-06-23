@@ -1,10 +1,10 @@
-# 📦 E-commerce Sales & Delivery Dashboard – Power BI Project
+# E-commerce Sales & Delivery Dashboard – Power BI Project
 
 This Power BI project provides a comprehensive analysis of an e-commerce dataset, with a focus on sales performance, customer behavior, and delivery efficiency. The dashboard is built using 3 interactive pages (Sales Overview, Product & Customer Analysis, and delivery Performance) and combines visuals, KPIs, and filtering to deliver actionable insights.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 The dataset includes fictional e-commerce transactions with:
 - Product & Category
@@ -68,7 +68,7 @@ The dataset includes fictional e-commerce transactions with:
 |----------------|----------------------|
 | ![Sales Overview](screenshots/dashboard-overview.png) | ![Delivery](screenshots/delivery-page.png) |
 
-## 🚀 How to Use
+## How to Use
 
 1. Clone or download the repo
 2. Open `ecommerce_sales_dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
