@@ -1,54 +1,64 @@
-# E-commerce Sales & Delivery Dashboard – Power BI Project
+# 📦 E-commerce Sales & Delivery Dashboard – Power BI Project
 
-This project presents a comprehensive analysis of e-commerce sales and delivery performance using Power BI.
-
-## 📊 Overview
-
-The dashboard offers insights into:
-- Sales performance
-- Product demand trends
-- Customer behavior
-- Delivery efficiency and bottlenecks
-
-## 🛠 Tools Used
-- Power BI (Desktop)
-- DAX (for custom measures and KPIs)
-- Power Query (for data transformation)
-
-## 📁 Dataset
-
-The dataset is a fictional e-commerce dataset including:
-- Product, Category, Location
-- Order details: Quantity, Final Price, Discount
-- Delivery Time, Payment Method, Purchase Date
-
-> 📌 Note: Dataset was cleaned and transformed within Power BI.
+This Power BI project provides a comprehensive analysis of an e-commerce dataset, with a focus on sales performance, customer behavior, and delivery efficiency. The dashboard is built using 3 interactive pages (Sales Overview, Product & Customer Analysis, and delivery Performance) and combines visuals, KPIs, and filtering to deliver actionable insights.
 
 ---
 
-## 📌 Dashboard Pages
+## 📁 Dataset Overview
 
-### 1. **Sales Overview**
-- KPIs: Total Sales, Orders, Discount, Average Order Value
-- Monthly Sales Trend (Line Chart)
-- Sales by Category (Bar)
-- Payment Method Breakdown (Pie)
-- Sales by Region (Treemap/Map)
-- Interactive filters: Category, Location, Year
+The dataset includes fictional e-commerce transactions with:
+- Product & Category
+- Quantity, Unit Price, Total Price, Final Price, Discount
+- Delivery Time (Days), Location, Payment Method
+- Order ID, customer ID
+- Purchase Date
 
-### 2. **Product & Customer Analysis**
-- Product performance matrix
-- Top 10 Products by Sales
-- Sales Range (Low/Medium/High) Segmentation
-- Orders by Sales Range (Bar)
-- Payment Method vs Category (Stacked Column)
-- Slicers for Category, Sales Range, Location
+---
 
-### 3. **Delivery Performance**
+## Dashboard Pages
+
+### 1. Sales Overview
+- KPIs: Total Sales, Total Orders, Total Discount, Average Order Value
+- Line Chart: Monthly Sales Trend
+- Bar Chart: Order Count by Product Category
+- Pie Chart: Payment Method Distribution
+- Map/Treemap: Sales by Location or Zone
+- Slicers: Category, Year, Payment Method
+
+---
+
+### 2. Product & Customer Analysis
+- Matrix Table: Category → Product with Sales, Quantity, Discount
+- Bar Chart: Top 10 Products by Sales
+- Pie Chart: Sales Segmentation by Order Value (Low < 1500/Medium/High >3000)
+- Bar Chart: Order Count by Sales Range
+- Stacked Column Chart: Count of Category & Payment Method
+- Slicers: Category, Year, Sales Range (Low, Medium, High) Payment Method
+
+  ---
+
+  ### 3. Delivery Performance
 - KPIs: Avg. Delivery Time, Fast Deliveries %, Late Deliveries %, Total Orders
-- Avg. Delivery Time by Month (Line Chart)
-- Fast vs Slow Delivery Split (Pie Chart)
-- Delivery Time Distribution (Histogram)
+- Line Chart: Average Delivery Time by Month
+- Pie Chart: Fast vs. Slow Deliveries
+- Column Chart: Delivery Time Distribution (Histogram)
+- Slicers: Category, Year, Payment Method
+
+---
+
+## Tools & Techniques Used
+- Power BI Desktop
+- DAX (for custom KPIs like Fast Deliveries %)
+- Power Query (for column creation and transformation)
+- Visual formatting & interactive filtering
+
+---
+
+## Key Insights
+- Most orders fall into the medium order value bracket
+- Clothing is the most frequently ordered category
+- About 32% of deliveries are completed within 3 days
+- Delivery time fluctuates significantly across months and regions
 
 ---
 
@@ -58,26 +68,9 @@ The dataset is a fictional e-commerce dataset including:
 |----------------|----------------------|
 | ![Sales Overview](screenshots/dashboard-overview.png) | ![Delivery](screenshots/delivery-page.png) |
 
----
+## 🚀 How to Use
 
-## 🧠 Key Learnings
-- Used DAX to create advanced KPIs like fast and late delivery %
-- Built interactive reports using slicers, filters, and drill-downs
-- Designed user-friendly dashboards with clear data storytelling
-
----
-
-## 🚀 How to View the Dashboard
-
-1. Clone this repo or download the `.pbix` file.
-2. Open with [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-3. Interact with slicers and visuals to explore the data.
-
----
-
-## 📬 Contact
-
-Feel free to connect:
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [Email](mailto:your.email@example.com)
+1. Clone or download the repo
+2. Open `ecommerce_sales_dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
+3. Interact with slicers and explore each dashboard page
 
