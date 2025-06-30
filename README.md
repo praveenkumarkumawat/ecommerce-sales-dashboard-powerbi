@@ -66,7 +66,7 @@ The dataset includes fictional e-commerce transactions with:
 
 | Sales Overview | Product and Customer Analysis | deleivery Performance |
 |----------------|-------------------------------|-----------------------|
-| ![Sales Overview](Page1.jpg) | ![Product and Customer Analysis](Page2.png) | ![Delivery Performance](Page3.png)
+| ![Sales Overview](page1.jpg) | ![Product and Customer Analysis](page2.png) | ![Delivery Performance](page3.png)
 
 ## How to Use
 
